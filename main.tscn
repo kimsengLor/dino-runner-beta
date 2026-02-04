@@ -1,0 +1,30 @@
+[gd_scene load_steps=7 format=3 uid="uid://dm6elj1fdwwrs"]
+
+[ext_resource type="Script" uid="uid://vohh0nwxr5qs" path="res://Scripts/main.gd" id="1_1bvp3"]
+[ext_resource type="PackedScene" uid="uid://b5kgonjxeqaqi" path="res://scenes/bg.tscn" id="1_h2yge"]
+[ext_resource type="PackedScene" uid="uid://cg8jw37wncque" path="res://scenes/static_body_2d.tscn" id="2_1bvp3"]
+[ext_resource type="PackedScene" uid="uid://b0ovcr6iagjeb" path="res://scenes/character_body_2d.tscn" id="3_lquwl"]
+[ext_resource type="PackedScene" uid="uid://cphp77x3qljja" path="res://scenes/box.tscn" id="5_tbgi4"]
+[ext_resource type="PackedScene" uid="uid://eh2ag0bl6i2o" path="res://bird.tscn" id="6_tefeu"]
+
+[node name="Main" type="Node"]
+script = ExtResource("1_1bvp3")
+
+[node name="Bg" parent="." instance=ExtResource("1_h2yge")]
+
+[node name="Ground" parent="." instance=ExtResource("2_1bvp3")]
+
+[node name="Dino" parent="." instance=ExtResource("3_lquwl")]
+position = Vector2(88, 528)
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(576, 324)
+
+[node name="box" parent="." instance=ExtResource("5_tbgi4")]
+position = Vector2(1000, 512)
+
+[node name="box" parent="box" instance=ExtResource("5_tbgi4")]
+position = Vector2(1008, -8)
+
+[node name="Area2D" parent="box/box" instance=ExtResource("6_tefeu")]
+position = Vector2(-424, -80)
