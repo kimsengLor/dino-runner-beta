@@ -8,13 +8,13 @@
 - Animated Flying Obstacles: The game spawns animated Birds that flap their wings and fly at two distinct heights (low and high).
 - Dynamic Difficulty: As the score increases, the game gets harder by spawning up to 3 ground obstacles tightly clustered together.
 
-** Asset
+## Asset
 - background - https://jesse-m.itch.io/jungle-pack
 - dinos - https://arks.itch.io/dino-characters
 - obstacles - https://free-game-assets.itch.io/free...
 - font - https://www.dafont.com/retro-gaming.font
 
-** usage of AI 
+## usage of AI 
 Gemini 
 - [Uploaded 4 screenshots] "can you update the code for me , change func generate_obs only"
 - [Pasted full main.gd script] found the error: queue.free()
