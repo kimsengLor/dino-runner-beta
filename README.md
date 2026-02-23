@@ -22,6 +22,7 @@ Gemini
 - [Pasted full main.gd script] found what (triggered the GameOver node crash)
 - help me with connect that hit_obs function to trigger your game_over function next so the game stops when you hit a cactus or bird
 - [Pasted main.gd script] found the (HighScorLabel spelling error)
+- now i want : when i press the down arrow key on my keyboard the dino go down while in the air
 
 # Youtube Video
 
