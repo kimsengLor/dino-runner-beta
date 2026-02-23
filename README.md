@@ -8,6 +8,20 @@
 - Animated Flying Obstacles: The game spawns animated Birds that flap their wings and fly at two distinct heights (low and high).
 - Dynamic Difficulty: As the score increases, the game gets harder by spawning up to 3 ground obstacles tightly clustered together.
 
+** Asset
+- background - https://jesse-m.itch.io/jungle-pack
+- dinos - https://arks.itch.io/dino-characters
+- obstacles - https://free-game-assets.itch.io/free...
+- font - https://www.dafont.com/retro-gaming.font
+
+** usage of AI 
+Gemini 
+- [Uploaded 4 screenshots] "can you update the code for me , change func generate_obs only"
+- [Pasted full main.gd script] found the error: queue.free()
+- "can you give me full update code"
+- [Pasted full main.gd script] found what (triggered the GameOver node crash)
+- help me with connect that hit_obs function to trigger your game_over function next so the game stops when you hit a cactus or bird
+- [Pasted main.gd script] found the (HighScorLabel spelling error)
 
 # Youtube Video
 
